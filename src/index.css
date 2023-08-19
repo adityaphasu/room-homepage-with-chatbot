@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-size: 0.95rem;
+    font-family: "League Spartan", sans-serif;
+  }
+
+  h1,
+  h2 {
+    @apply text-very-dark-gray;
+  }
+
+  p {
+    @apply leading-[1.4rem] text-dark-gray md:px-20 lg:pl-0 lg:pr-10 xl:px-16 2lg:text-sm;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply cursor-pointer bg-black px-[1.47rem] py-[1.26rem] transition duration-300 hover:opacity-50 lg:px-10 xl:px-[2.08rem] xl:py-7;
+  }
+
+  .about-img {
+    @apply w-full xl:w-1/3;
+  }
+
+  .aspect-ratio {
+    aspect-ratio: 11.8/7.5;
+  }
+
+  .aspect-ratio-sm {
+    aspect-ratio: 11.8/11.3;
+  }
+
+  /* Hover Links */
+
+  .line::before {
+    content: "";
+    width: 60%;
+    height: 0.12rem;
+    background-color: white;
+    position: absolute;
+    inset: 1.3rem 0 0 0.45rem;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 500ms ease-in-out;
+  }
+
+  .line:hover::before {
+    transform: scaleX(1);
+  }
+}
