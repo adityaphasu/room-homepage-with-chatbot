@@ -19,11 +19,9 @@ export default function Header() {
           {isMenuOpen ? <img src={Close} alt="" /> : <img src={Hamburger} alt="" />}
         </button>
         <a href="#" aria-label="Room">
-          <img src={Logo} alt="Room" className="md:w-16 md:pt-0.5" />
+          <img src={Logo} alt="Room" className="md:w-16 md:pt-0.5 lg:w-28" />
         </a>
-        {isMenuOpen && (
-          <div className="fixed inset-0 -z-10 bg-black bg-opacity-50" onClick={toggleMenu}></div>
-        )}
+        {isMenuOpen && <div className="fixed inset-0 -z-10 bg-black bg-opacity-50" onClick={toggleMenu}></div>}
         <ul
           className={`absolute left-0 flex w-full justify-end gap-8 bg-white px-[1.3rem] pb-10 pt-[2.85rem] transition-all duration-700 md:justify-center lg:relative lg:justify-start lg:bg-transparent lg:p-0
            ${isMenuOpen ? "top-0" : "-top-32 lg:top-0"}`}>
