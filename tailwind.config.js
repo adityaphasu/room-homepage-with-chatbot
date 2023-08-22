@@ -10,6 +10,7 @@ export default {
           max: "1220px",
         },
         xl: "1360px",
+        "2xl": "1450px",
       },
       colors: {
         "dark-gray": "hsl(0, 0%, 63%)",

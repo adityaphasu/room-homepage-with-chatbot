@@ -22,7 +22,7 @@
 
 @layer components {
   .btn {
-    @apply cursor-pointer bg-black px-[1.47rem] py-[1.26rem] transition duration-300 hover:opacity-50 lg:px-10 xl:px-[2.08rem] xl:py-7;
+    @apply cursor-pointer bg-black px-[1.47rem] py-[1.26rem] transition duration-300 hover:opacity-50 lg:px-10 xl:px-[2.08rem] xl:py-7 2xl:px-16 2xl:py-9;
   }
 
   .about-img {

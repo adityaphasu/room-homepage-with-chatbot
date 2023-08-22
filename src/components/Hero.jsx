@@ -29,7 +29,7 @@ export default function Hero() {
             </picture>
           </AnimatePresence>
         </div>
-        <div className="absolute bottom-0 right-0 lg:-right-[11.15rem] xl:-right-40">
+        <div className="absolute bottom-0 right-0 lg:-right-[11.15rem] xl:-right-40 2xl:-right-[17.6rem]">
           <Slider data={heroData} setCurrentIndex={setCurrentIndex} />
         </div>
       </div>
