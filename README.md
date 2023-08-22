@@ -1,6 +1,6 @@
-<h1 align="center">Room homepage with IBM Watson Assistant<h1>
+<h1 align="center">Room homepage with IBM Watson Assistant</h1>
 
-<p align="center">A furniture store homepage that has IBM Watson integrated into it enables users to ask questions about information related to the store, such as furniture details, discounts, and purchase orders.<p>
+<p align="center">A furniture store homepage that has IBM Watson integrated into it enables users to ask questions about information related to the store, such as furniture details, discounts, and purchase orders.</p>
 
 ## Table of Contents
 
