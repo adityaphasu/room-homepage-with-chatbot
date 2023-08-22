@@ -10,7 +10,7 @@ A furniture store homepage that has IBM Watson integrated into it enables users 
 
 ### Link
 
-- Live Site URL: [Room Homepage with chatbot](https://room-homepage-with-chatbot.vercel.app/)
+- Live Site URL: [Room Homepage](https://room-homepage-with-chatbot.vercel.app/)
 
 ## Features
 
