@@ -1,50 +1,33 @@
-# Room homepage
+# Room homepage with IBM Watson Assistant
 
-This is a solution to the [Room homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq).
+A furniture store homepage that has IBM Watson integrated into it enables users to ask questions about information related to the store, such as furniture details, discounts, and purchase orders.
 
-## Table of contents
+## Table of Contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
+- [Link](#link)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
 
-## Overview
+### Link
 
-### The challenge
+- Live Site URL: [Room Homepage with chatbot](https://room-homepage-with-chatbot.vercel.app/)
 
-Users should be able to:
+## Features
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Navigate the slider using either their mouse/trackpad or keyboard
+- Interactive transitions powered by Framer Motion.
+- Real-time chat with IBM Watson Assistant for product inquiries.
+- Responsive design for seamless user experience across devices.
 
-### Screenshot
+### Technologies Used
 
-![](./public/Screenshot.png)
-
-### Links
-
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/room-homepage-react-tailwindcss-CE9DqmrRO0)
-- Live Site URL: [Room Homepage](https://room-homepage-flax.vercel.app/)
-
-## My process
-
-### Built with
-
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Framer](https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![IBM watson](https://img.shields.io/badge/IBM%20Watson-BE95FF.svg?style=for-the-badge&logo=IBM-Watson&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=React&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4.svg?style=for-the-badge&logo=Tailwind-CSS&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer-0055FF.svg?style=for-the-badge&logo=Framer&logoColor=white)
 
 - Mobile-first workflow
 - Semantic HTML5 markup
 - TailwindCSS
 - Framer Motion
 - React
-
-## Author
-
-- Frontend Mentor - [@adityaphasu](https://www.frontendmentor.io/profile/adityaphasu)
+- IBM Watson Assistant
