@@ -2,6 +2,8 @@
 
 <p align="center">A furniture store homepage that has IBM Watson integrated into it enables users to ask questions about information related to the store, such as furniture details, discounts, and purchase orders.</p>
 
+![screenshot](/public/Screenshot.png)
+
 ## Table of Contents
 
 - [Link](#link)
