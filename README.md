@@ -10,9 +10,7 @@
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 
-### Link
 
-- Live Site URL: [Room Homepage](https://room-homepage-with-chatbot.vercel.app/)
 
 ## Features
 
